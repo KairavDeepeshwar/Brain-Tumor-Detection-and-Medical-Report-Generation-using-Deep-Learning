@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project aims to develop deep learning models for the detection and classification of brain tumors using MRI images. The project utilizes multiple architectures, including VGG16, ResNet, EfficientNet, and ResNet50, to evaluate their performance in identifying various types of brain tumors. Additionally, a YOLOv5 model is trained on a brain tumor dataset from Roboflow for object detection. The Gemini API from Google Cloud is integrated to generate medical reports based on the detected tumor details. This project contributes to advancements in medical imaging and diagnostics.
+This project aims to develop deep learning models for the detection and classification of brain tumors using MRI images. The project utilizes multiple architectures, including VGG16, ResNet, EfficientNet, and ResNet50, to evaluate their performance in identifying various types of brain tumors. Additionally, a YOLOv5 model is trained on a brain tumor dataset from Roboflow for object detection. The Gemini API from Google Cloud is integrated to generate medical reports based on the detected tumor details. This project contributes to advancements in medical imaging and diagnostics and then utilize ReportLab to create detailed PDF medical reports, which include diagnostic findings, tumor classifications, and visualizations from the model outputs. This feature ensures that the results are easily accessible and presentable for clinical use.
 
 ### Key Components
 
@@ -22,13 +22,15 @@ This project aims to develop deep learning models for the detection and classifi
 5. **Visualization:** Visualizing training and validation metrics to analyze model performance.
 
 6. **Gemini API Integration:** Generating medical reports based on the detected tumor details using the Gemini API from Google Cloud.
+   
+7. **Medical Report Generation:** Use ReportLab to create PDF reports with diagnostic findings, tumor classifications, and visualizations, making results accessible for clinical use.
 
 ### Test Accuracies
-- **VGG16:** [Insert Test Accuracy]
-- **ResNet:** [Insert Test Accuracy]
-- **EfficientNet:** [Insert Test Accuracy]
-- **ResNet50:** [Insert Test Accuracy]
-- **YOLOv5:** [Insert Test Accuracy]
+- **CNN:** Test Accuracy: 92.5%
+- **VGG16:** Test Accuracy: 92.12%
+- **ResNet50:** Test Accuracy: 90.81%
+- **EfficientNet:** Test Accuracy: 75.24%
+- **ResNet:** Test Accuracy: 74.28%
 
 ## Requirements
 
